@@ -1,3 +1,3 @@
-** Pagina Single Page ICI
+## Single Page ICI
 
-// aqui será o git do projeto
+Pagína de estudo de novo layout ICI - Soluções.
