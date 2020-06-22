@@ -1,0 +1,138 @@
+// BOOTSTRAP
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css")
+
+//FONT
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap')
+
+//ICO
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons")
+
+//PADRÃO
+$blue: #065A9A
+$blue100: #5FB0E3
+$cinza: #707070
+$font: 'Open Sans', sans-serif
+
+h1,
+h2,
+p,
+a
+    font-family: $font
+
+
+.bg-blue
+    background-color: $blue
+
+
+.bg-blue100
+    background-color: $blue100
+
+
+.text-blue
+    color: $blue
+
+
+.text-blue100
+    color: $blue100
+
+
+.text-gray
+    color: $cinza
+    b
+        font-size: 1.12rem
+        font-weight: 800
+
+
+
+.borderAzul
+    border-bottom: 9px solid $blue100
+    margin-bottom: 4px
+
+
+.header
+    background: $blue url('../img/header.png')
+    background-position: right bottom
+    background-repeat: no-repeat
+    background-size: contain
+    display: flex
+    align-items: center
+    height: 70vh
+
+
+.textoMaterial
+    p
+        font-family: $font
+
+    
+.bt-solucao
+    width: 100%
+    height: 6rem
+    background: white
+    display: flex
+    flex-direction: row
+    justify-content: space-around
+    align-items: center
+    cursor: pointer
+    transition: all .3s ease
+    p
+        min-width: 150px
+        margin: 0px
+        text-align: center
+        text-transform: uppercase
+        font-weight: 700
+        color: $blue
+    span
+        width: 2.4rem
+        margin-left: 2rem
+    &:hover
+        background: #f1f1f1
+        border-radius: 12px
+
+
+
+.redeSocial
+    background: #f8f9fa
+    padding-top: 3rem
+    .icone
+        figure
+            display: flex
+            justify-content: space-between
+    img
+        height: 24px
+        cursor: pointer
+        transition: all .3s ease
+        &:last-child
+            margin-right: 0px
+
+
+.footer
+    border-bottom: 3rem solid $blue100
+    ul
+        list-style: none
+        li > a
+            color: white
+            text-transform: uppercase
+            &:hover
+                text-decoration: underline
+
+
+
+//Bootstrap Input
+.input-group > .form-control
+    border: 0px
+    border-radius: 0px
+    border-bottom: 1px solid $cinza
+    background: transparent
+    transition: all .3s ease
+
+.btn
+    border-radius: 0px
+
+
+.navbar-toggler > span
+    font-size: 2.6rem
+
+a.text-light
+    &:hover
+        text-decoration: underline
+        color: #cbd3da !important
